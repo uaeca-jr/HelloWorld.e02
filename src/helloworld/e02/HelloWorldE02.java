@@ -4,6 +4,7 @@
  * and open the template in the editor.
  */
 package helloworld.e02;
+import javax.swing.JOptionPane;
 
 /**
  *
@@ -17,8 +18,8 @@ public class HelloWorldE02 {
     public static void main(String[] args) {
         System.out.println("Ola Mundo!");
         
-        System.out.printf("Ola Mundo!");
-        
+        JOptionPane.showMessageDialog(null, "Hello World");
+       
     }
     
 }
